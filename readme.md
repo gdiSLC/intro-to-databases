@@ -1,6 +1,4 @@
-> Please read our slide creation guidelines in [the wiki](https://github.com/girldevelopit/gdi-slides-template/wiki). Then, delete this banner and add the specifics about your class below.
-
-# Add Your Course Title Here
+#Introduction to SQL & Databases
 
 Slides and materials are hosted at [http://example.com/](http://example.com/).
 
@@ -10,7 +8,7 @@ Use this space for a short description of your course. We recommend using the de
 
 **Cost:** 
 
-**Dates:** 
+Date: Saturday, November 14, 2015
 
 **Location:** 
 
@@ -19,19 +17,7 @@ A limited number of scholarships are available for those with a financial hardsh
 
 ### Prerequisites:
 
-List any prerequisites for this class, including any previous classes or the equivalent self-study or real-world skills.
-
-You should have:
-
-(a) taken Intro or Intermediate HTML/CSS through Girl Develop It, or
-
-(b) built and managed websites on your own,
-
-**And also:**
-
-(a) taken intro to JavaScript through Girl Develop It, or
-
-(b) be familiar with syntax, arrays, conditionals, for and while loops, event handling, jQuery, AJAX requests, and handling JSON responses.
+There are no formal prerequisites for this class, though experience with any programming language will help to prepare you for the rules of the SQL language.
 
 
 ### Tech requirements:
@@ -41,9 +27,10 @@ You should have:
  - A text editor. We recommend Sublime Text 2 (free; available for Mac, PC, and Linux).
 
 
-### Topics covered:
+### Topics covered:  The following topics will be discussed in approximately four hours of instruction time (with a 1 hour break in the middle).
 
- - The topics you plan to cover
- - Written in list form
- - Here's another one
+ - Data Modeling & Organization
+ - SQL Environment & Basic Queries
+ - Create, Insert, Update, & Delete Statements
+ - Joins & Advanced SQL
 
