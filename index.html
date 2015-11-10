@@ -73,30 +73,150 @@
 				
         <!-- Data Modeling -->
 				<section>
-					<h2>Works in Mobile Safari</h2>
+					<h2>Data Modeling</h2>
 					<p>
-						Try it out! You can swipe through the slides and pinch your way to the overview.
+						<ul>
+							<li><strong>First step in database design and object-oriented programming</strong></p></li>
+							<li><strong>Goal</strong> = create conceptual model of
+								<ul>
+									<li>What data are</li>
+									<li>How data relate to each other</li>
+								</ul>
+							</li>
+							<li><strong>Process</strong> - 
+								<ul>
+									<li>Conceptual – high-level domain models</li>
+									<li>Logical – describe logical entities &amp; relationships</li>
+									<li>Physical – detailed; used to design database schemas</li>
+								</ul>
+							</li>
+						</ul>
 					</p>
 				</section>
 				
 			<!-- Examples of basic html based slides -->
 				<section>
-					<h2>Marvelous Unordered List</h2>
+					<h2>Entity Characteristics</h2>
+					<ul style="float:left;width:500px;">
+						<li>Entity is a single data point (datum)</li>
+						<li>Individual characteristics:
+							<ul>
+								<li>Physical
+									<ul>
+										<li>Height</li>
+										<li>Hair color</li>
+										<li>Eye color</li>
+									</ul>
+								</li>
+								<li>Arbitrary
+									<ul>
+										<li>ID numbers
+											<ul>
+												<li>SSN</li>
+												<li>DL Number</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>Internal
+									<ul>
+										<li>Motivation</li>
+										<li>Personality</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<img src="img/loki.png" style="float:right;margin-top:150px;">
+				</section>
+
+				<section>
+					<h2>Relationship Characteristics</h2>
+					<ul style="float:left;width:510px;">
+						<li>Entity-to-Entity Relationship</li>
+					</ul>
+					<ul style="float:left;width:510px;margin-top:20px;">
+						<li>Relationship characteristics:
+							<ul>
+								<li>Type of Relationship
+									<ul>
+										<li>Sibling</li>
+										<li>Nemesis</li>
+										<li>Friend</li>
+									</ul>
+								</li>
+								<li>Duration</li>
+							</ul>
+						</li>
+					</ul>
+					<img src="img/loki_and_thor.png" style="float:right;margin-top:0px;">
+				</section>
+
+				<section>
+					<h3>Relationship Characteristics – Cardinality</h3>
+					<p>Key characteristic of relationship</p>
+					<ul style="float:left;width:510px;margin-top:20px;">
+						<li>How many?
+							<ul>
+								<li>1:1 (One to one)
+									<ul>
+										<li><small>Each entity in first group matches exactly one entity in second group.</small></li>
+										<li><small style="padding-top:10px;">Loki:Thor</small></li>
+									</ul>
+								</li>
+								<li>1:&#8734; (One to many)
+									<ul>
+										<li><small>Each entity in first group may have many entities in second group.</small></li>
+										<li><small style="padding-top:10px;">Loki:Avengers</small></li>
+									</ul>
+								</li>
+								<li>&#8734;:&#8734; (Many to many)
+									<ul>
+										<li><small>Each entity in first group may have many entities in second group.</small></li>
+										<li><small style="padding-top:10px;">Each entity in second group may have many entities in first group.</small></li>
+										<li><small style="padding-top:10px;">Chitauri:Avengers</small></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<img src="img/superheroes.png" style="float:right;margin-top:50px;">
+				</section>
+
+			<!-- Brainstorm -->
+				<section>
+					<h3>Brainstorm/Small Group</h3>
+					<p>(10-15 minutes)</p>
 					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
+						<li>Pick a movie</li>
+						<li>Describe entities &amp; relationships in that movie</li>
 					</ul>
 				</section>
 
 				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
+					<h2>Grouping Entities</h2>
+					<ul style="float:left;">
+						<li><strong>Entities will share several characteristics with other entities</strong>
+							<ul>
+								<li>Appearance</li>
+								<li>Characterization</li>
+							</ul>
+						</li>
+					</ul>
+
+					<ul style="float:left;margin-top: 20px;">
+						<li><strong>Similar entities grouped in tables</strong>
+							<ul>
+								<li>Each entity = record/row</li>
+								<li>Each attribute = field/column</li>
+								<li>Unique identifier = Primary Key
+									<ul>
+										<li>Composite key</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
 				</section>
                 
                 <section>
